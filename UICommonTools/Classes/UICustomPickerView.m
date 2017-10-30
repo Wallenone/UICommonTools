@@ -7,7 +7,7 @@
 //
 
 #import "UICustomPickerView.h"
-
+#import "CGPch.h"
 @interface UICustomPickerView()<UIPickerViewDelegate,UIPickerViewDataSource>{
     NSArray *_pickerData;
     NSString *_title;

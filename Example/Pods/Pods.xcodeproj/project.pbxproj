@@ -148,6 +148,10 @@
 		E542B8691FA7053F00473248 /* UICustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E542B8631FA7053F00473248 /* UICustomPickerView.m */; };
 		E542B86A1FA7053F00473248 /* CGCommonString.m in Sources */ = {isa = PBXBuildFile; fileRef = E542B8641FA7053F00473248 /* CGCommonString.m */; };
 		E542B86B1FA7053F00473248 /* CGCommonString.h in Headers */ = {isa = PBXBuildFile; fileRef = E542B8651FA7053F00473248 /* CGCommonString.h */; };
+		E542B8731FA7070600473248 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = E542B8711FA7070500473248 /* UIImage+Color.m */; };
+		E542B8741FA7070600473248 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = E542B8721FA7070500473248 /* UIImage+Color.h */; };
+		E542B8771FA7086F00473248 /* UIColor+getColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E542B8751FA7086E00473248 /* UIColor+getColor.h */; };
+		E542B8781FA7086F00473248 /* UIColor+getColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E542B8761FA7086E00473248 /* UIColor+getColor.m */; };
 		E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E8CCC7289747C081F6D6A10DA4239FC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E53784EB01F41414D2A2FBF05361E /* QuartzCore.framework */; };
@@ -393,6 +397,11 @@
 		E542B8631FA7053F00473248 /* UICustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICustomPickerView.m; sourceTree = "<group>"; };
 		E542B8641FA7053F00473248 /* CGCommonString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCommonString.m; sourceTree = "<group>"; };
 		E542B8651FA7053F00473248 /* CGCommonString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCommonString.h; sourceTree = "<group>"; };
+		E542B8701FA706C400473248 /* CGPch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGPch.h; sourceTree = "<group>"; };
+		E542B8711FA7070500473248 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		E542B8721FA7070500473248 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		E542B8751FA7086E00473248 /* UIColor+getColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+getColor.h"; sourceTree = "<group>"; };
+		E542B8761FA7086E00473248 /* UIColor+getColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+getColor.m"; sourceTree = "<group>"; };
 		E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		EA8F006A7D1FCC4C5634D72EBD4E24B0 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -486,6 +495,11 @@
 		0382912581CAC806A116F4E62C6318A7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E542B8701FA706C400473248 /* CGPch.h */,
+				E542B8751FA7086E00473248 /* UIColor+getColor.h */,
+				E542B8761FA7086E00473248 /* UIColor+getColor.m */,
+				E542B8721FA7070500473248 /* UIImage+Color.h */,
+				E542B8711FA7070500473248 /* UIImage+Color.m */,
 				E542B8651FA7053F00473248 /* CGCommonString.h */,
 				E542B8641FA7053F00473248 /* CGCommonString.m */,
 				E542B8601FA7053E00473248 /* RkyExtendedHitButton.h */,
@@ -916,6 +930,7 @@
 				A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */,
 				E542B86B1FA7053F00473248 /* CGCommonString.h in Headers */,
 				8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */,
+				E542B8741FA7070600473248 /* UIImage+Color.h in Headers */,
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
@@ -932,6 +947,7 @@
 				FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */,
 				41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */,
 				E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */,
+				E542B8771FA7086F00473248 /* UIColor+getColor.h in Headers */,
 				AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
@@ -1225,6 +1241,7 @@
 				9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */,
 				8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */,
 				A037AD9C808583B3EC9F49B3EEDA588A /* EXPMatchers+beginWith.m in Sources */,
+				E542B8731FA7070600473248 /* UIImage+Color.m in Sources */,
 				FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */,
 				C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
 				CD22121B77F0F8E2B6A58AF6226038C2 /* EXPMatchers+beIdenticalTo.m in Sources */,
@@ -1232,6 +1249,7 @@
 				778C9F1A1715E05313578E39AB46726E /* EXPMatchers+beInstanceOf.m in Sources */,
 				508B6D0572C0C3B4A3E019B814595D4A /* EXPMatchers+beInTheRangeOf.m in Sources */,
 				DF883524C3F35145D74166C01BCFCFC3 /* EXPMatchers+beKindOf.m in Sources */,
+				E542B8781FA7086F00473248 /* UIColor+getColor.m in Sources */,
 				47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */,
 				CE7E4C141657D23213C7FAE616D7FA75 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
 				CD66900813CFE317343F5A4053AE73EC /* EXPMatchers+beNil.m in Sources */,
