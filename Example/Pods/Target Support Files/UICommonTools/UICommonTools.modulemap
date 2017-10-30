@@ -1,0 +1,6 @@
+framework module UICommonTools {
+  umbrella header "UICommonTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
