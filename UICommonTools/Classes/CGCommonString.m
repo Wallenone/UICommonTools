@@ -22,4 +22,13 @@
     }
     return NO;
 }
+
++(NSString *)filterNullString:(NSString *)str{
+    NSString *filterStr=str;
+    BOOL filterState= [self isBlankString:str];
+    if (filterState) {
+        filterStr=@"";
+    }
+    return filterStr;
+}
 @end

@@ -142,6 +142,8 @@
 		E11935F513DB06E0D205B9915435341A /* Pods-UICommonTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E711BCE6736B314A5BD24DEB404280 /* Pods-UICommonTools_Tests-dummy.m */; };
 		E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E536B16C1FD269D5006CC3CD /* CGCommonToolsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E536B16A1FD269D5006CC3CD /* CGCommonToolsNode.m */; };
+		E536B16D1FD269D5006CC3CD /* CGCommonToolsNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E536B16B1FD269D5006CC3CD /* CGCommonToolsNode.h */; };
 		E542B8661FA7053F00473248 /* RkyExtendedHitButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E542B8601FA7053E00473248 /* RkyExtendedHitButton.h */; };
 		E542B8671FA7053F00473248 /* RkyExtendedHitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E542B8611FA7053E00473248 /* RkyExtendedHitButton.m */; };
 		E542B8681FA7053F00473248 /* UICustomPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E542B8621FA7053E00473248 /* UICustomPickerView.h */; };
@@ -391,6 +393,8 @@
 		E42AB63F84DC20AD246EB8FFA3EFEF2C /* SPTSharedExampleGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTSharedExampleGroups.m; path = Specta/Specta/SPTSharedExampleGroups.m; sourceTree = "<group>"; };
 		E47922AA0F6D472C6BD29B15DF2DE148 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AB2231A5D9D8B5E664B91840084F29 /* Pods-UICommonTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UICommonTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E536B16A1FD269D5006CC3CD /* CGCommonToolsNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGCommonToolsNode.m; sourceTree = "<group>"; };
+		E536B16B1FD269D5006CC3CD /* CGCommonToolsNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGCommonToolsNode.h; sourceTree = "<group>"; };
 		E542B8601FA7053E00473248 /* RkyExtendedHitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RkyExtendedHitButton.h; sourceTree = "<group>"; };
 		E542B8611FA7053E00473248 /* RkyExtendedHitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RkyExtendedHitButton.m; sourceTree = "<group>"; };
 		E542B8621FA7053E00473248 /* UICustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICustomPickerView.h; sourceTree = "<group>"; };
@@ -495,6 +499,8 @@
 		0382912581CAC806A116F4E62C6318A7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E536B16B1FD269D5006CC3CD /* CGCommonToolsNode.h */,
+				E536B16A1FD269D5006CC3CD /* CGCommonToolsNode.m */,
 				E542B8701FA706C400473248 /* CGPch.h */,
 				E542B8751FA7086E00473248 /* UIColor+getColor.h */,
 				E542B8761FA7086E00473248 /* UIColor+getColor.m */,
@@ -951,6 +957,7 @@
 				AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
+				E536B16D1FD269D5006CC3CD /* CGCommonToolsNode.h in Headers */,
 				FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */,
 				F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */,
 				DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */,
@@ -1234,6 +1241,7 @@
 				D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */,
 				99E6D51A8A4E3FFB7601D182D995A3BA /* ExpectaObject.m in Sources */,
 				1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */,
+				E536B16C1FD269D5006CC3CD /* CGCommonToolsNode.m in Sources */,
 				E542B8671FA7053F00473248 /* RkyExtendedHitButton.m in Sources */,
 				BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,

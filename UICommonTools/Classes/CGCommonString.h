@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface CGCommonString : NSObject
++(NSString *)filterNullString:(NSString *)str;
 + (BOOL) isBlankString:(NSString *)string;
 @end
