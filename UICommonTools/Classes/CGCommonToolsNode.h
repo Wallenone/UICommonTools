@@ -9,4 +9,7 @@
 
 @interface CGCommonToolsNode : NSObject
 + (NSArray *)genertateRandomNumberStartNum:(int)startNum endNum:(int)endNum count:(int)count;
++ (NSString *)getLongTime:(long long)timestamp;
++(int)getRandomNumber:(int)from to:(int)to;
++(UIViewController *)getCurrentVC;
 @end
