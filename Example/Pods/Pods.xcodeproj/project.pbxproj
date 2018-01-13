@@ -154,6 +154,8 @@
 		E542B8741FA7070600473248 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = E542B8721FA7070500473248 /* UIImage+Color.h */; };
 		E542B8771FA7086F00473248 /* UIColor+getColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E542B8751FA7086E00473248 /* UIColor+getColor.h */; };
 		E542B8781FA7086F00473248 /* UIColor+getColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E542B8761FA7086E00473248 /* UIColor+getColor.m */; };
+		E57F059B2009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = E57F05992009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.h */; };
+		E57F059C2009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = E57F059A2009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.m */; };
 		E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 237C1D40E94ECB9726EC1CC5E6691588 /* EXPMatcherHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0782314CEFBB6F81294F8002EBFB578E /* EXPMatchers+equal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E8CCC7289747C081F6D6A10DA4239FC9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5E53784EB01F41414D2A2FBF05361E /* QuartzCore.framework */; };
@@ -406,6 +408,8 @@
 		E542B8721FA7070500473248 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		E542B8751FA7086E00473248 /* UIColor+getColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+getColor.h"; sourceTree = "<group>"; };
 		E542B8761FA7086E00473248 /* UIColor+getColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+getColor.m"; sourceTree = "<group>"; };
+		E57F05992009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+SizeToFitHeight.h"; sourceTree = "<group>"; };
+		E57F059A2009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+SizeToFitHeight.m"; sourceTree = "<group>"; };
 		E5970E5D763F65673B9F5F4C5D0A9D0F /* SPTExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExample.h; path = Specta/Specta/SPTExample.h; sourceTree = "<group>"; };
 		E5B05516F560C08699BF135F729DD5E4 /* SPTExampleGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExampleGroup.h; path = Specta/Specta/SPTExampleGroup.h; sourceTree = "<group>"; };
 		EA8F006A7D1FCC4C5634D72EBD4E24B0 /* Specta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Specta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -513,6 +517,8 @@
 				E542B8621FA7053E00473248 /* UICustomPickerView.h */,
 				E542B8631FA7053F00473248 /* UICustomPickerView.m */,
 				6D34AC830552C8C077EF82D1E3D2EAFE /* ReplaceMe.m */,
+				E57F05992009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.h */,
+				E57F059A2009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -951,6 +957,7 @@
 				8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */,
 				5F160713BF583BCBC136CE95E62F9C2F /* EXPMatchers+beInstanceOf.h in Headers */,
 				FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */,
+				E57F059B2009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.h in Headers */,
 				41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */,
 				E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */,
 				E542B8771FA7086F00473248 /* UIColor+getColor.h in Headers */,
@@ -1273,6 +1280,7 @@
 				9F51005FE4BF10FA9906B02DAD609C6E /* EXPMatchers+postNotification.m in Sources */,
 				361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */,
 				870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */,
+				E57F059C2009DB7A00ECDAC0 /* UILabel+SizeToFitHeight.m in Sources */,
 				A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */,
 				E542B86A1FA7053F00473248 /* CGCommonString.m in Sources */,
 				AE7BBD46BA00A9AC69249ADA56402162 /* EXPUnsupportedObject.m in Sources */,
