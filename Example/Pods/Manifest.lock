@@ -10,7 +10,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Specta (1.0.7)
-  - UICommonTools (0.1.8)
+  - UICommonTools (0.1.9)
 
 DEPENDENCIES:
   - Expecta
@@ -28,7 +28,7 @@ SPEC CHECKSUMS:
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  UICommonTools: d6fd64238cfb02eb0d9bad55118763cd5785b2a0
+  UICommonTools: deb116aa18609af14c23ca040f832e68093c0e1b
 
 PODFILE CHECKSUM: 34681306084267bbe770e9b92287c9fa17fbd41e
 

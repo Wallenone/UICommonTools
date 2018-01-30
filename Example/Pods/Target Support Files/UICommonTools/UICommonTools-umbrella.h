@@ -17,6 +17,7 @@
 #import "UIColor+getColor.h"
 #import "UICustomPickerView.h"
 #import "UIImage+Color.h"
+#import "UILabel+SizeToFitHeight.h"
 #import "UITextView+ZWPlaceHolder.h"
 
 FOUNDATION_EXPORT double UICommonToolsVersionNumber;
